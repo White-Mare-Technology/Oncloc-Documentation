@@ -1,0 +1,40 @@
+site_name: On-Cloc Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: green
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: green
+      accent: lime
+
+nav:
+  - Dashboard/Portal:
+      - How To Navigate The Dashboard/Portal: 'dashboard/how_to_navigate.md'
+      - Project Layout: 'dashboard/project_layout.md'
+  - Mobile Application:
+      - Introduction: 'mobile/introduction.md'
+      - Installation: 'mobile/installation.md'
+      - Features: 'mobile/features.md'
+      - User Guide: 'mobile/user_guide.md'
+
+copyright: |
+  &copy; 2024 <a href="https://on-cloc.app/" target="_blank" rel="noopener">On-Cloc</a>
